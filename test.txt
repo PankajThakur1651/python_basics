@@ -1,7 +1,0 @@
-This is a test file
-what you think 
-why this test file was created
-fourth line
-fifth line
-sixth line
-seventh line

@@ -2,13 +2,13 @@ import os
 
 original_path=  os.getcwd()
 
-os.removedirs("Ths_is_created/hello")
-os.makedirs("Ths_is_created/hello")
-os.chdir("Ths_is_created/hello")
+
+# os.makedirs("Ths_is_created/hello")
+# os.chdir("Ths_is_created/hello")
 
 print(f" CWD is: {os.getcwd()}")
 
-os.chdir(original_path);
+os.chdir(original_path)
 print(f"Cwd is: {os.getcwd()}")
 
 print(os.stat("chapter_1_work_with_string.py"))

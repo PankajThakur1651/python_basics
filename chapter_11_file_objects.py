@@ -22,8 +22,8 @@ with open("test.txt", 'r') as file:
 
 # read the contents of one file to the another file
 
-with open("test.txt", 'r') as read_file:
-    with open("test_2.txt", 'w') as write_file:
+with open("test_folder/test.txt", 'r') as read_file:
+    with open("test_folder/test_2.txt", 'w') as write_file:
         size_to_read = 10
         f_contents=read_file.read(size_to_read)
         while len(f_contents) > 0:
