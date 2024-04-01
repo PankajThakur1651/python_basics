@@ -2,16 +2,9 @@ import os
 
 original_path=  os.getcwd()
 
-
-# os.makedirs("Ths_is_created/hello")
-# os.chdir("Ths_is_created/hello")
-
 print(f" CWD is: {os.getcwd()}")
 
-os.chdir(original_path)
-print(f"Cwd is: {os.getcwd()}")
-
-print(os.stat("chapter_1_work_with_string.py"))
+print(os.stat("src/chapter_1_work_with_string.py"))
 for dirpath, dirname, filenames in os.walk(os.getcwd()):
     print("current path", dirpath)
     print("dirname ", dirname)
@@ -30,4 +23,3 @@ print(os.path.isdir("/tmp"))
 print(os.path.basename("/tmp/hello.txt"))
 
 holder=os.path.split("/tmp/hello.txt")
-print(type(holder))

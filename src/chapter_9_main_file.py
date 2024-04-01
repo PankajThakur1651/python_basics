@@ -1,3 +1,8 @@
+import os, sys
+module_path = os.getcwd()
+print("Current Directory", module_path)
+sys.path.append(module_path)
+
 import modules.chapter_9_module as mm
 from modules.chapter_9_module import find_index
 from modules.chapter_9_module import my_var
@@ -6,7 +11,7 @@ import os
 import datetime
 import calendar
 
-# sys.path.append(os.getcwd().join("modules")) # extend sys.path
+
 str="Raj Thakur"
 target ="T"
 
