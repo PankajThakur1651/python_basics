@@ -1,7 +1,7 @@
 message = "hello World"
 
 # Length of the string
-print (len(message))
+print(f"length of string {message} is {len(message)}")
 
 print(f"hello  appears {message.count('hello')} times")
 
@@ -15,4 +15,4 @@ print(f"after replace message is : {msg}")
 print(dir(str))
 
 print ("print help for all methods")
-print(help(str.lower))
+#print(help(str.lower))

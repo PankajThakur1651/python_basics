@@ -29,4 +29,4 @@ with open("test.txt", 'r') as read_file:
         while len(f_contents) > 0:
             write_file.write(f_contents)
             f_contents=read_file.read(size_to_read)
-            
+

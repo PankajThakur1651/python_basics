@@ -20,3 +20,4 @@ name_1 = ("Raj", "Thakur")
 dict_1= {"Name": "Ajay", "last_name": 22}
 
 Student_info(*name_1, **dict_1)
+

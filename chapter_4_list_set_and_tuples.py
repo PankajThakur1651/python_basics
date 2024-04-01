@@ -50,4 +50,3 @@ print(set_var.intersection(set_var_2))
 print(set_var.difference(set_var_2))
 
 print(set_var.union(set_var_2))
-
